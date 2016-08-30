@@ -1,0 +1,59 @@
+/* All styling */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/* Better text styling */
+	font: 14px sans-serif;
+}
+
+#calc {
+	width: 340px;
+	height: auto;
+	margin: 100px auto;
+	padding: 20px 20px 9px;
+	background: indianred;
+	border: 1px solid silver;
+	border-radius: 10px;
+}
+
+.top span.clear {
+	float: left;
+}
+
+.screen {
+	height: 40px;
+	width: 212px;
+	margin-right: 13px;
+	float: right;
+	padding: 5px;
+	background: floralwhite;
+	border: 1px solid lightsteelblue;
+	font-size: 17px;
+	line-height: 40px;
+	color:black;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+	text-align: right;
+	letter-spacing: 1px;
+}
+
+.buttons, .top {
+	overflow: hidden;
+}
+
+.buttons span, .top span.clear {
+	float: left;
+	position: relative;
+	top: 0;
+	cursor: pointer;
+	width: 66px;
+	height: 36px;
+	background: white;
+	border-radius: 3px;
+	box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+	margin: 0 7px 11px 0;
+	color: #888;
+	line-height: 36px;
+	text-align: center;
+}
