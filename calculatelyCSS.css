@@ -13,7 +13,7 @@
 	height: auto;
 	margin: 100px auto;
 	padding: 20px 20px 9px;
-	background: indianred;
+	background: #a3dcdc;
 	border: 1px solid silver;
 	border-radius: 10px;
 }
@@ -56,4 +56,28 @@
 	color: #888;
 	line-height: 36px;
 	text-align: center;
+	
+}
+
+.buttons span:hover {
+background: orange;
+color: white;
+font-weight: bold;
+}
+
+#clear:hover {
+background: red;
+color: white;
+font-weight: bold
+}
+
+h1 { color: salmon; 
+font-family: 'Raleway',sans-serif; 
+font-size: 62px; 
+font-weight: 800; 
+line-height: 72px; 
+margin: 0 0 24px; 
+text-align: center; 
+text-transform: uppercase; 
+padding: 30px;
 }
